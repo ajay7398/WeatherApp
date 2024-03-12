@@ -108,7 +108,10 @@ outline: none;
     .container{
       width: 100%;
       box-sizing: border-box;
-      margin: 0 5px;
+      
+      overflow: hidden;
+      
+      
     }
     .search{
       width: 100%;
@@ -138,4 +141,6 @@ outline: none;
       font-size: 20px;
       border-radius: 20px;
     }
+   
   }
+
