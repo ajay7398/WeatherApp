@@ -28,7 +28,7 @@ body{
     align-items: center;
   }
   .search-bar{
-    width: 400px;
+    width: 80%;
     border: none;
     padding: 10px;
     font-size: 25px;
@@ -102,4 +102,40 @@ outline: none;
     display: flex;
     flex-direction: column;
     
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 5px;
+    }
+    .search{
+      width: 100%;
+      margin: 0 5px;
+      box-sizing: border-box;
+      
+    }
+    .hero{
+      width: 100%;
+      padding: 0 10px;
+    }
+    .left{
+      width: 50%;
+
+    }
+    .right{
+      width: 50%;
+      
+    }
+    .footer-text{
+      font-size: 15px;
+    }
+    .search-bar{
+      width: 80%;
+      border: none;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 20px;
+    }
   }
