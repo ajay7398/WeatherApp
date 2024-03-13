@@ -3,6 +3,11 @@ body{
     background: #292725;
    
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .container{
     width: 500px;
     background: linear-gradient(#2193b0,#6dd5ed);
@@ -75,6 +80,7 @@ outline: none;
     width: 400px;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
   }
   .left{
     display: flex;
@@ -98,9 +104,10 @@ outline: none;
   
   .footer-text{
     line-height: 0.5px;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
     
   }
 
@@ -108,7 +115,7 @@ outline: none;
     .container{
       width: 100%;
       box-sizing: border-box;
-      
+      margin: 0;
       overflow: hidden;
       
       
